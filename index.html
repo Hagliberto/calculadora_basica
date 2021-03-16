@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Prova de WEB1 - Calculadora</title>
+    <meta name="description" content="Avaliação da Disciplina de Desenvolvimento WEBI" />
+    <meta name="author" content="Hagliberto Alves de Oliveira" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="sortcut icon" href="logo.jpg" type="image/jpg">
+</head>
+
+<body>
+
+    <div class="calculadora">
+
+        <div id="titulo">
+            <p>CALCULADORA</p>
+        </div>
+
+        <div class="calculadora-visor">
+            <span class="tela"></span>
+        </div>
+
+        <div class="calculadora-teclado">
+
+            <div onclick="clicar(this)" id="numero" class="botao">7</div>
+            <div onclick="clicar(this)" id="numero" class="botao">8</div>
+            <div onclick="clicar(this)" id="numero" class="botao">9</div>
+            <div onclick="clicar(this)" id="soma" class=" botao">+</div>
+
+            <div onclick="clicar(this)" id="numero" class="botao">4</div>
+            <div onclick="clicar(this)" id="numero" class="botao">5</div>
+            <div onclick="clicar(this)" id="numero" class="botao">6</div>
+            <div onclick="clicar(this)" id="sub" class="botao">-</div>
+
+            <div onclick="clicar(this)" id="numero" class="botao">1</div>
+            <div onclick="clicar(this)" id="numero" class="botao">2</div>
+            <div onclick="clicar(this)" id="numero" class="botao">3</div>
+            <div onclick="clicar(this)" id="mult" class="botao">*</div>
+
+            <div onclick="clicar(this)" id="virgula" class="botao">,</div>
+            <div onclick="clicar(this)" id="div" class="botao">/</div>
+
+            <div onclick="clicar(this)" id="numero" class="botao zero">0</div>
+            <div class="botao igual"><span>=</span></div>
+
+            <div onclick="limpar(this) " class="botao apagar"><span>AC</span></div>
+
+        </div>
+
+    </div>
+    <script src="script.js "></script>
+
+</body>
+
+
+</html>
