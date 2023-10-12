@@ -1,6 +1,6 @@
 # Calculadora Básica
 
-![Calculadora Básica](placeholder_for_image_link)
+[Calculadora Básica](https://hagliberto.github.io/calculadora_basica/)
 
 Bem-vindo à Calculadora Básica! Esta calculadora foi desenvolvida como parte de uma prova da disciplina IMD0404 - Desenvolvimento Web I, do IMD/UFRN.
 
